@@ -33,9 +33,9 @@ instances:
     # cluster_stats: false
     pshard_stats: true
     # pending_task_stats: true
-    # ssl_verify: false
-    # ssl_cert: /path/to/cert.pem
-    # ssl_key: /path/to/cert.key
+    # tls_verify: true
+    # tls_cert: /path/to/cert.pem
+    # tls_private_key: /path/to/cert.key
     tags:
         - 'elasticsearch-role:data-node'
 ```
